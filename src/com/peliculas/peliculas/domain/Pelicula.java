@@ -24,6 +24,6 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula{" + "nombre=" + nombre + '}';
+        return this.nombre;
     }
 }
