@@ -1,14 +1,14 @@
-package com.peliculas.peliculas.datos;
+package com.peliculas.datos;
 
 import com.peliculas.excepciones.*;
-import com.peliculas.peliculas.domain.Pelicula;
+import com.peliculas.domain.Pelicula;
 import java.util.List;
 
 /**
  *
  * @author Nicolas
  */
-public interface AccesoDatos {
+public interface IAccesoDatos {
     boolean existe(String nombreRecurso) throws AccesoDatosEx;
     
     List<Pelicula> listar(String nombreRecurso)throws LecturaDatosEx;

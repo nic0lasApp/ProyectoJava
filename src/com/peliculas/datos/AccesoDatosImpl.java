@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.peliculas.peliculas.datos;
+package com.peliculas.datos;
 
 import com.peliculas.excepciones.*;
-import com.peliculas.peliculas.domain.Pelicula;
+import com.peliculas.domain.Pelicula;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,7 +19,7 @@ import java.util.*;
  *
  * @author Nicolas
  */
-public class AccesoDatosImpl implements AccesoDatos{
+public class AccesoDatosImpl implements IAccesoDatos{
 
     @Override
     public boolean existe(String nombreRecurso) throws AccesoDatosEx {

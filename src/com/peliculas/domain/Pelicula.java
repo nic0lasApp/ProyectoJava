@@ -1,4 +1,4 @@
-package com.peliculas.peliculas.domain;
+package com.peliculas.domain;
 //Clase de entidad - domain
 /**
  *
